@@ -1,8 +1,9 @@
 ---
 - name: Run docker container
-  hosts: all
+  hosts: jenkinsNodeVM
   gather_facts: false
-  
+  remote_user: vagrant
+
   tasks:
     - name: Install pip
       apt:
