@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    repo = "prblthp/dockerpipelineComplete"
+    repo = "prblthp/dockerpipelinecomplete"
   }
   agent any
   stages {
